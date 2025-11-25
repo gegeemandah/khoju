@@ -439,16 +439,15 @@
     <div id="app">
       <div id="page1" class="page active">
         <header>
-          <h1>Our Love Journey</h1>
+          <h1>my life is ticking timebomb since we broke up</h1>
           <p class="subtitle">
-            Every moment since we met has been a blessing. This is our story
-            together. To my dearest Khongorzul
+            since we broke up everything becomes gray and pointless
           </p>
         </header>
 
         <div class="container">
           <div class="card countup-box">
-            <h2 class="countup-title">Together For</h2>
+            <h2 class="countup-title">broke up for </h2>
             <div class="countup-numbers">
               <div class="time-unit">
                 <div class="time-value">{{ days }}</div>
@@ -469,16 +468,16 @@
             </div>
             <p class="anniversary-date">Since {{ startDate }}</p>
             <button class="btn" @click="sendLove">
-              <i class="fas fa-heart"></i> Send Love
+              <i class="fas fa-heart"></i> what i want
             </button>
           </div>
 
           <div class="card love-meter">
-            <h2>Our Love Meter</h2>
+            <h2>i loved her</h2>
             <div class="heart-container">
               <div class="heart"><i class="fas fa-heart"></i></div>
             </div>
-            <p>Our love is at <strong>100%</strong> despite the distance!</p>
+            <p>my love for her is at <strong>100%</strong> despite the distance!</p>
           </div>
 
           <div class="card message-box">
@@ -519,7 +518,7 @@
 
           <div class="card">
             <h2>Future Dreams</h2>
-            <p>Things we'll do together:</p>
+            <p>Things we could have do together:</p>
             <ul style="margin: 15px 0 15px 20px">
               <li v-for="(dream, index) in dreams" :key="index">{{ dream }}</li>
             </ul>
@@ -538,7 +537,7 @@
         <footer>
           <p>
             Made with <i class="fas fa-heart" style="color: #ff6b6b"></i> for my
-            amazing girlfriend
+            amazing ex-girlfriend
           </p>
           <p>Distance is just a test of how far love can travel.</p>
           <p>Made by Gegeemandakh @2025</p>
@@ -653,7 +652,7 @@
           hours: 0,
           minutes: 0,
           seconds: 0,
-          startDate: "July 29, 2025",
+          startDate: "november 20, 2025",
           togetherTime: "0 days, 0 hours, 0 minutes, 0 seconds",
           messages: [
             "Thinking of you always brightens my day.",
@@ -685,7 +684,7 @@
         },
         methods: {
           updateCountup() {
-            const startDate = new Date(2025, 6, 29);
+            const startDate = new Date(2025, 11, 21);
 
             const now = new Date();
             const diff = now - startDate;
@@ -701,7 +700,7 @@
           },
           sendLove() {
             alert(
-              "Love sent! 💖 Imagine your girlfriend feeling a warm hug right now!"
+              "wanna kill myself!"
             );
           },
           addMessage() {
@@ -852,3 +851,4 @@
   </body>
 
 </html>
+
